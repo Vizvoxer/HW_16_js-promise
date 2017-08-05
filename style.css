@@ -1,0 +1,35 @@
+.loadWrapper {
+    overflow: hidden;
+    height: 10px;
+    margin: 10px;
+    background: #000;
+    border-radius: 5px;
+}
+.loadWrapper > .loadLine {
+    background: red;
+    border-radius:  3px;
+    margin: 1px;
+    height: 8px;
+    transition: all 0.1s;
+}
+
+article {
+    overflow: hidden;
+}
+article h2 {
+    border-bottom: 1px solid #ccc;
+    font-size: 1.4em;
+    margin: 15px 10px;
+}
+article p {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    text-align: justify;
+}
+article img {
+    margin: 5px 10px 5px 5px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width:90px;
+}
